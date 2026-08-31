@@ -114,11 +114,11 @@ button:active {
 }
 
 .header__img--wrapper {
-  padding: 50px
+  padding: 50px;
   }
 
   .container {
-  padding: 250px 0;
+  padding: 250px
   }
 
   .row {
@@ -126,8 +126,17 @@ button:active {
   max-width: 1200px;
   margin: 0 auto;
   }
+  
   /* 
   
   HIGHLIGHTS 
   
   */
+
+.highlight__wrapper {
+  display: flex;
+}
+
+.highlight {
+  padding: 0 24px;
+}
