@@ -122,6 +122,26 @@ button:active {
   padding: 50px;
   }
 
+  .custom-shape-divider-top-1788384675 {
+  height: 100px;
+  overflow: hidden;
+}
+
+.custom-shape-divider-top-1788384675 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1788384675 .shape-fill {
+  fill: #ffffff;
+}
+
+.container {
+ padding: 20px 0;
+  }
+
   .container {
  padding: 20px 0;
   }
@@ -163,7 +183,7 @@ button:active {
 }
 
 .highlight__img {
-  border: 2px solid rgba(39, 2, 39, 0.979);
+  border: 2px solid rgba(163, 61, 163, 0.021);
   color: purple;
   width: 100px;
   height: 100px;
@@ -181,4 +201,35 @@ margin-bottom: 16px;
 }
 
 
+/*
 
+features
+
+*/
+
+#features {
+  background-color: rgba(197, 101, 197, 0.322);
+  position: relative;
+}
+
+
+  .custom-shape-divider-top-1788900311 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1788900311 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-top-1788900311 .shape-fill {
+    fill: #FFFFFF;
+}
