@@ -111,7 +111,7 @@ button:active {
 
 .btn {
   background-color: purple;
-  color: white;
+  color: rgba(255, 255, 255, 0.932);
   padding: 12px 24px;
   font-size: 20px;
   border-radius: 4px;
@@ -135,7 +135,7 @@ button:active {
 }
 
 .custom-shape-divider-top-1788384675 .shape-fill {
-  fill: #ffffff;
+  fill: #ffffff00;
 }
 
 .container {
@@ -183,7 +183,7 @@ button:active {
 }
 
 .highlight__img {
-  border: 2px solid rgba(163, 61, 163, 0.021);
+  border: 2px solid rgba(68, 18, 68, 0.877);
   color: purple;
   width: 100px;
   height: 100px;
@@ -208,28 +208,29 @@ features
 */
 
 #features {
+  height: 1000px;
   background-color: rgba(197, 101, 197, 0.322);
   position: relative;
 }
 
-
-  .custom-shape-divider-top-1788900311 {
+.custom-shape-divider-top-1788903291 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1788900311 svg {
+.custom-shape-divider-top-1788903291 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 154px;
+    height: 40px;
 }
 
-.custom-shape-divider-top-1788900311 .shape-fill {
+.custom-shape-divider-top-1788903291 .shape-fill {
     fill: #FFFFFF;
 }
+
+
